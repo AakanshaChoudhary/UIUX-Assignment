@@ -1,0 +1,43 @@
+*{
+    color: #221f4d;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: normal;
+}
+.regForm{
+    border-style: ridge;
+    padding: 40px;
+    width: 25%;
+}
+
+input{
+    height: 30px;
+    margin-bottom: 20px;
+    width: 100%; 
+}
+
+.subBtn{
+    background-color: #0f5ef0;
+    border: none;
+    color: #ffffff;
+    margin: 10px 0px 0px 0px;
+    
+}
+
+.subBtn:hover{
+    background-color: #0c4bc0;
+}
+
+::placeholder {
+    opacity: 0.5;
+  }
+
+::-webkit-input-placeholder { /* Edge */
+   opacity: 0.5;
+  }
+  
+:-ms-input-placeholder { /* Internet Explorer */
+  opacity: 0.5;
+  }
+  
+ 

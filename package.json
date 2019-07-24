@@ -19,7 +19,9 @@
     "@angular/platform-browser": "~8.0.1",
     "@angular/platform-browser-dynamic": "~8.0.1",
     "@angular/router": "~8.0.1",
+    "css-loader": "^3.1.0",
     "rxjs": "~6.4.0",
+    "style-loader": "^0.23.1",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
   },

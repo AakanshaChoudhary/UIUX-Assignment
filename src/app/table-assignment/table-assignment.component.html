@@ -1,0 +1,27 @@
+<table>
+    <thead>
+        <tr>
+            <th (click)="sort('name')">Product Name
+                <span class="indicatorChevron" *ngIf="isDesc">&#9650;</span>
+                <span class="indicatorChevron" *ngIf="!isDesc">&#x25BC;</span>
+            </th>
+            <th (click)="sort('price')">Price
+                <span class="indicatorChevron" *ngIf="isDesc">&#9650;</span>
+                <span class="indicatorChevron" *ngIf="!isDesc">&#x25BC;</span>
+            </th>
+            <th (click)="sort('category')">Category
+                <span class="indicatorChevron" *ngIf="isDesc">&#9650;</span>
+                <span class="indicatorChevron" *ngIf="!isDesc">&#x25BC;</span>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let product of products | orderBy: {property: column, direction: direction}">
+            <td>{{product.name}}</td>
+            <td>{{product.price}}</td>
+            <td>{{product.category}}</td>
+        </tr>
+
+    </tbody>
+
+</table>

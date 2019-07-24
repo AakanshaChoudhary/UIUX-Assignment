@@ -1,0 +1,33 @@
+*{
+   color: #221f4d;
+   font-family: 'Open Sans';
+   font-size: 12px;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid #dddddd;
+    width: 100%;
+  }
+.indicatorChevron {
+    float: right;
+  }
+  
+thead tr th {
+      background-color: #cbd6e2;
+      border-right: 1px solid black;
+      font-weight: 600;  /*  SemiBold */
+  }
+td, th {
+    padding: 10px 15px;
+    text-align: left;
+  }
+  
+tr:nth-child(even) {
+    background-color: #f5f8fa;
+  }
+
+tr:hover {
+    background-color:#e7effd;
+    border: 1px solid #0f5ef0
+  }
+  

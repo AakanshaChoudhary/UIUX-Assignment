@@ -28,9 +28,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
-            ],
-            "scripts": []
+              "src/styles.css"
+            ]
           },
           "configurations": {
             "production": {
@@ -88,7 +87,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.css"
             ],
             "scripts": []
           }
@@ -119,6 +118,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "Assignment"
 }

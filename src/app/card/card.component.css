@@ -1,0 +1,32 @@
+*{
+      font-family: 'Open Sans'
+}
+.card {
+      border-radius: 1px;
+      box-shadow: 0px 2px 6px 2px #00000047;
+      width: 289px;
+      /* filter: drop-shadow(0  0.2rem #000000); */
+}
+.headingCard{
+      color: #0F5EF0;
+      font-weight: 600; /*  SemiBold */
+      font-size: 15px;
+}
+.subHeadingCard{ 
+      color: #7a8594;
+      font-size: 12px;
+}
+.container{
+      margin: 20px 0px 14px 16px;
+}
+#lastHeadingSection{
+      padding-bottom: 14px;
+}
+.card img{
+      height: 200px;
+      width: 290px;
+      
+}
+.card:hover{
+      box-shadow: 0px 3px 18px 2px #00000047;    
+}
